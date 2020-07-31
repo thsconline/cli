@@ -1,8 +1,12 @@
 # thsconline command line tool
 
+[Latest Release](https://github.com/thsconline/cmdtool/releases/)
+
+[Download](https://github.com/thsconline/cmdtool/releases/download/v1/thsconline.zip)
+
 ## System Requirements:
-* Windows 8.1 and Windows 10 supported.
-* Windows 7 will need to install Microsoft .NET Framework 4.5
+* Windows 8.1 and Windows 10 supported, with Powershell v4.0 or v5.0 installed.
+* Windows 7 will need to install Microsoft .NET Framework 4.5 and Windows Management Framework 4.0.
 * Mac and Linux not currently supported. It may work with Powershell Core on newer versions, however this has not been tested and may have unexpected results.
 
 ## Comand Line Parameters
