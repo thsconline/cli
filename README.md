@@ -1,5 +1,6 @@
 # thsconline command line tool
 
+## Get Started:
 [Latest Release](https://github.com/thsconline/cmdtool/releases/)
 
 [Download](https://github.com/thsconline/cmdtool/releases/download/v1/thsconline.zip)
