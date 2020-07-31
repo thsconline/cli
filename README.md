@@ -10,7 +10,7 @@
 * Windows 7 will need to install Microsoft .NET Framework 4.5 and Windows Management Framework 4.0.
 * Mac and Linux not currently supported. It may work with Powershell Core on newer versions, however this has not been tested and may have unexpected results.
 
-## Comand Line Parameters
+## Command Line Parameters
 * _get_ - the path to retrieve files from (drop extension, see examples below)
 
 Examples:
@@ -18,12 +18,14 @@ Examples:
   
   > GET value of /json/5340 will grab all files linked with view number 5340. In this case will download all the HSC papers for Maths Ext 2
 
-* _filter_ - filter out particular files (use w. sol to grab files with solutions)
+* _filter_ - filter out particular files
  
 Examples
   > FILTER value of James Ruse, wil grab all James Ruse papers on a page
   
   > FILTER value of 2019, wil grab all 2019 papers on a page
+
+  > FILTER value of w. sol, wil grab all papers with solutions on a page
 
 * _filepath_ - output folder path.
 
