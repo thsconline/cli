@@ -21,11 +21,11 @@ Examples:
 * _filter_ - filter out particular files
  
 Examples
-  > FILTER value of James Ruse, wil grab all James Ruse papers on a page
+  > FILTER value of James Ruse, will grab all James Ruse papers on a page
   
-  > FILTER value of 2019, wil grab all 2019 papers on a page
+  > FILTER value of 2019, will grab all 2019 papers on a page
 
-  > FILTER value of w. sol, wil grab all papers with solutions on a page
+  > FILTER value of w. sol, will grab all papers with solutions on a page
 
 * _filepath_ - output folder path.
 
