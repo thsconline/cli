@@ -6,20 +6,20 @@
 * Mac and Linux not currently supported. It may work with Powershell Core on newer versions, however this has not been tested and may have unexpected results.
 
 ## Comand Line Parameters
---- _get_ - the path to retrieve files from (drop extension, see examples below)
+* _get_ - the path to retrieve files from (drop extension, see examples below)
 
 Examples:
-  > GET value of /s/yr12/Maths/trialpapers_extension2  will grab all files associated with this website. In this case it will grab the Maths Ext 2 trial papers.< 
+  > GET value of /s/yr12/Maths/trialpapers_extension2  will grab all files associated with this website. In this case it will grab the Maths Ext 2 trial papers.
   
-  > GET value of /json/5340 will grab all files linked with view number 5340. In this case will download all the HSC papers for Maths Ext 2 <
+  > GET value of /json/5340 will grab all files linked with view number 5340. In this case will download all the HSC papers for Maths Ext 2
 
---- _filter_ - filter out particular files (use w. sol to grab files with solutions)
+* _filter_ - filter out particular files (use w. sol to grab files with solutions)
  
 Examples
   > FILTER value of James Ruse, wil grab all James Ruse papers on a page <
   > FILTER value of 2019, wil grab all 2019 on a page <
 
---- _filepath_ - output folder path.
+* _filepath_ - output folder path.
 
  Examples
-  > FILEPATH value of C:\Temp will download all files to the C:\Temp folder <
+  > FILEPATH value of C:\Temp will download all files to the C:\Temp folder
