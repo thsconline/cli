@@ -18,7 +18,7 @@ Examples:
 Examples
   > FILTER value of James Ruse, wil grab all James Ruse papers on a page
   
-  > FILTER value of 2019, wil grab all 2019 on a page
+  > FILTER value of 2019, wil grab all 2019 papers on a page
 
 * _filepath_ - output folder path.
 
