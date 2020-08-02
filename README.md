@@ -18,6 +18,8 @@ Examples:
   
   > GET value of /json/5340 will grab all files linked with view number 5340. In this case will download all the HSC papers for Maths Ext 2
 
+  > GET value of /s/upload will start the Bulk Upload File service.
+
 * _filter_ - filter out particular files
  
 Examples
