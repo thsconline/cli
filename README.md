@@ -48,11 +48,11 @@ When first opening the application, it will ask you to authenticate, ask for a d
 * _REFRESH_ or _RELOAD_ - Clear console
 * _RESET_ - Return to default folder. 
 
-* _SET FOLDER_- Change default download folder
-* _SET LIBRARY_ or _CHANGE LIBRARY_- Change library and default folder
+* _SET FOLDER_ - Change default download folder
+* _SET LIBRARY_ or _CHANGE LIBRARY_ - Change library and default folder
 
 * _VIEW PROPERTIES_ or _QUERY_PROPERTIES_ - Show current library and default download folder 
-* _VIEW USER_ or _QUERY USER_- Show current logged in user. To change which user is logged in requires restarting the application.
+* _VIEW USER_ or _QUERY USER_ - Show current logged in user. To change which user is logged in requires restarting the application.
 * _VIEW WEBSITE_ or _VIEW_ - Show HTML of current page in new window. 
     * _nanahcub_ & _web_ - This will open the page in default browser rather than in a small popup window as for other
     * _thsc_ - Enter filter value to open viewer of file (if multiple results are returned, it will prompt for a selection). Entering no value will revert to default behaviour of opening the page as per the _VIEW WEBSITE_ command.
