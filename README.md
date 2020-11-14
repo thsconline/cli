@@ -9,49 +9,49 @@
 * Requires a BoredofStudies account to be able to use.
 
 ## Initial Setup
-When first opening the application, it will ask you to authenticate, ask for a default download folder, then you can select a library and a folder (GET request)
+When first opening the application, it will ask you to authenticate, ask for a default download folder, then you can select a library and a folder to view.
 
 ## Available Libraries
 * _bos_ - Bored of Studies resources section
-* _drive_ - Google Drive
+* _drive_ & _fz_ - Google Drive
 * _nanahcub_ - Maths exam papers
 * _nesa_ - HSC exam papers (NESA website)
 * _thsc_ - thsconline website
 * _web_ - Any other webpage
 
 ## Command Line Parameters
-* _GET_ - Navigate to link or file. Links are numbered (with the exception of the 'bos' library, where you enter the collection name). The GET command can also be used to download files in some libraries
-
-* _GOTO_ - Navigate to folder. 
-** sd
+* _BACK_ - Navigate to the last viewed folder.
 
 
+* _CLEAR_ - Clear console
+* _DOWNLOAD_ - Download file. Some libraries will prompt for a filename, as download mechanism differs for some libraries.
+    * _thsc_ - For this library, for almost all pages, enter a filter value as the parameter rather, as the links are not numbered for some pages. This uses the multiple file downloader implemented in v1.1.
+    * Files with non-English characters are not currently supported. Please use the Custom option.
+    
+* _EXIT_ or _QUIT_ - Exit program.
+* _GET_ - Navigate to link or file. Links are numbered. The GET command can also be used to download files in some libraries
+    * _bos_ - For this library, this command is the same as the _GOTO_ command.
+* _GET PAGE_ or _VIEW PAGE_ - (_bos_ library only) Change page.
+    
+* _GOTO_ - Navigate to different folder:
+    * _bos_ - This library does not use link numbering, enter the collection name instead. To view all the collections use the command _GET /resources_.
+    * _drive_ - Use the command _CHANGE LIBRARY_ to enter a Google Drive folder ID.
+    * _fz_ - Enter link number or the unique folder identifier (this is different to the Google Drive ID)
+    * _nanahcub_ & _web_ - Enter link number or a URL
+    * _nesa_ - Enter year or year followed by the exam pack. (The part of the URL after https://educationstandards.nsw.edu.au/wps/portal/nesa/resource-finder/hsc-exam-papers/)
+    * _thsc_ - Enter link number or relative path. (The part of the URL after https://thsconline.github.io/, unlike v1.1 retain the extension, although the /files/ folder can be dropped from the path e.g. _GOTO /s/yr12/Maths/trialpapers.html_)
+* _HELP_ or _GET HELP_ - Show basic help information
+* _OPEN_ - This command is the same as the _DOWNLOAD_ command for some libraries, except it will attempt to open the file.
 
 
+* _REFRESH_ or _RELOAD_ - Clear console
+* _RESET_ - Return to default folder. 
 
+* _SET FOLDER_- Change default download folder
+* _SET LIBRARY_ or _CHANGE LIBRARY_- Change library and default folder
 
-* _get_ - the path to retrieve files from (drop extension, see examples below)
-
-
-
-
-Examples:
-  > GET value of /s/yr12/Maths/trialpapers_extension2  will grab all files associated with this website. In this case it will grab the Maths Ext 2 trial papers.
-  
-  > GET value of /json/5340 will grab all files linked with view number 5340. In this case will download all the HSC papers for Maths Ext 2
-
-  > GET value of /s/upload will start the Bulk Upload File service.
-
-* _filter_ - filter out particular files
- 
-Examples
-  > FILTER value of James Ruse, will grab all James Ruse papers on a page
-  
-  > FILTER value of 2019, will grab all 2019 papers on a page
-
-  > FILTER value of w. sol, will grab all papers with solutions on a page
-
-* _filepath_ - output folder path.
-
- Examples
-  > FILEPATH value of C:\Temp will download all files to the C:\Temp folder
+* _VIEW PROPERTIES_ or _QUERY_PROPERTIES_ - Show current library and default download folder 
+* _VIEW USER_ or _QUERY USER_- Show current logged in user. To change which user is logged in requires restarting the application.
+* _VIEW WEBSITE_ or _VIEW_ - Show HTML of current page in new window. 
+    * _nanahcub_ & _web_ - This will open the page in default browser rather than in a small popup window as for other
+    * _thsc_ - Enter filter value to open viewer of file (if multiple results are returned, it will prompt for a selection). Entering no value will revert to default behaviour of opening the page as per the _VIEW WEBSITE_ command.
