@@ -12,11 +12,11 @@
 When first opening the application, it will ask you to authenticate, ask for a default download folder, then you can select a library and a folder to view.
 
 ## Available Libraries
-* _bos_ - Bored of Studies resources section
-* _drive_ & _fz_ - Google Drive
+* _bos_ (or _boredofstudies_)- Bored of Studies resources section.
+* _drive_ & _fz_ - Google Drive. 
 * _nanahcub_ - Maths exam papers
-* _nesa_ - HSC exam papers (NESA website)
-* _thsc_ - thsconline website
+* _nesa_ (or _bostes_, _hsc_, _hscexams_, _hscpapers_) - HSC exam papers (NESA website)
+* _thsc_ (or _s_, _files_, _thsconline_) - thsconline website 
 * _web_ - Any other webpage
 
 ## Command Line Parameters
@@ -31,15 +31,16 @@ When first opening the application, it will ask you to authenticate, ask for a d
 * _EXIT_ or _QUIT_ - Exit program.
 * _GET_ - Navigate to link or file. Links are numbered. The GET command can also be used to download files in some libraries
     * _bos_ - For this library, this command is the same as the _GOTO_ command.
-* _GET PAGE_ or _VIEW PAGE_ - (_bos_ library only) Change page.
+* _GET PAGE_ or _VIEW PAGE_ - (for _bos_ library only) Change page.
     
 * _GOTO_ - Navigate to different folder:
-    * _bos_ - This library does not use link numbering, enter the collection name instead. To view all the collections use the command _GET /resources_.
-    * _drive_ - Use the command _CHANGE LIBRARY_ to enter a Google Drive folder ID.
+    * _bos_ - Use the collection name (no link numbering). To view all the collections use the command _GET /resources_.
+    * _drive_ - Use the command _CHANGE LIBRARY_ to enter a new Google Drive folder ID.
     * _fz_ - Enter link number or the unique folder identifier (this is different to the Google Drive ID)
     * _nanahcub_ & _web_ - Enter link number or a URL
     * _nesa_ - Enter year or year followed by the exam pack. (The part of the URL after https://educationstandards.nsw.edu.au/wps/portal/nesa/resource-finder/hsc-exam-papers/)
-    * _thsc_ - Enter link number or relative path. (The part of the URL after https://thsconline.github.io/, unlike v1.1 retain the extension, although the /files/ folder can be dropped from the path e.g. _GOTO /s/yr12/Maths/trialpapers.html_)
+    * _thsc_ - Enter link number or relative path. (The part of the URL after https://thsconline.github.io/, unlike v1.1 retain the extension, although the /files/ folder can be dropped from the path e.g. _GOTO /s/yr12/Maths/trialpapers.html_). Some pages do not have link numbering for some links.
+    * **Note:** The _GOTO_ command cannot be used to download files.
 * _HELP_ or _GET HELP_ - Show basic help information
 * _OPEN_ - This command is the same as the _DOWNLOAD_ command for some libraries, except it will attempt to open the file.
 
