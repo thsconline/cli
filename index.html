@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title></title>
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 14px;
+	line-height: 1.5;
+	color: #24292e;
+	background-color: #fff;
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+.my-5 {
+	margin-top: 32px !important;
+	margin-bottom: 32px !important;
+}
+.px-3 {
+	padding-right: 16px !important;
+	padding-left: 16px !important;
+}
+.container-lg {
+	max-width: 1012px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.markdown-body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+.markdown-body::before {
+	display: table;
+	content: "";
+}
+.markdown-body::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2em;
+	border-bottom: 1px solid #eaecef;
+}
+.markdown-body > *:first-child {
+	margin-top: 0px !important;
+}
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #eaecef;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+ul, ol {
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+blockquote {
+	margin: 0;
+}
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+.markdown-body ul, .markdown-body ol {
+	padding-left: 2em;
+}
+.markdown-body blockquote {
+	padding: 0 1em;
+	color: #6a737d;
+	border-left: 0.25em solid #dfe2e5;
+}
+.border-gray-light {
+	border-color: #eaecef !important;
+}
+.border-top {
+	border-top: 1px #e1e4e8 solid !important;
+}
+.text-gray {
+	color: #586069 !important;
+}
+.mt-5 {
+	margin-top: 32px !important;
+}
+.pt-3 {
+	padding-top: 16px !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.markdown-body > *:last-child {
+	margin-bottom: 0px !important;
+}
+a {
+	background-color: transparent;
+}
+a {
+	color: #0366d6;
+	text-decoration: none;
+}
+.markdown-body blockquote > :first-child {
+	margin-top: 0px;
+}
+.markdown-body blockquote > :last-child {
+	margin-bottom: 0px;
+}
+.markdown-body li {
+	word-wrap: break-all;
+}
+.anchorjs-link {
+	opacity: 0;
+	text-decoration: none;
+}
+[data-anchorjs-icon]::after {
+	content: attr(data-anchorjs-icon);
+}
+.markdown-body li + li {
+	margin-top: 0.25em;
+}
+</style>
+</head>
+<body>
+    <div class="container-lg px-3 my-5 markdown-body">
+     <h1 id="thsconline-cli">thsconline CLI</h1>
+<h2 id="get-started">Get Started:</h2>
+<p><a target="_blank" href="https://github.com/thsconline/cmdtool/releases/">Download Latest Release</a></p>
+
+<h2 id="system-requirements">System Requirements:</h2>
+<ul>
+  <li>Windows 8.1 and Windows 10 supported, with Powershell v4.0 or v5.0 installed.</li>
+  <li>Windows 7 will need to install Microsoft .NET Framework 4.5 and Windows Management Framework 4.0.</li>
+  <li>Mac and Linux not currently supported. It may work with Powershell Core on newer versions, however this has not been tested and may have unexpected results.</li>
+</ul>
+
+<h2 id="user-requirements">User Requirements</h2>
+<ul>
+  <li>Requires a BoredofStudies account to be able to use.</li>
+</ul>
+
+<h2 id="initial-setup">Initial Setup</h2>
+<p>When first opening the application, it will ask you to authenticate, ask for a default download folder, then you can select a library and a folder to view.</p>
+
+<h2 id="available-libraries">Available Libraries</h2>
+<ul>
+  <li><em>bos</em> (or <em>boredofstudies</em>)- Bored of Studies resources section.</li>
+  <li><em>drive</em> &amp; <em>fz</em> - Google Drive.</li>
+  <li><em>nanahcub</em> - Maths exam papers</li>
+  <li><em>nesa</em> (or <em>bostes</em>, <em>hsc</em>, <em>hscexams</em>, <em>hscpapers</em>) - HSC exam papers (NESA website)</li>
+  <li><em>thsc</em> (or <em>s</em>, <em>files</em>, <em>thsconline</em>) - thsconline website</li>
+  <li><em>web</em> - Any other webpage</li>
+</ul>
+
+<h2 id="command-line-parameters">Command Line Parameters</h2>
+<ul>
+  <li>
+    <p><em>BACK</em> - Navigate to the last viewed folder.</p>
+  </li>
+  <li><em>CLEAR</em> - Clear console</li>
+  <li><em>DOWNLOAD</em> - Download file. Some libraries will prompt for a filename, as download mechanism differs for some libraries.
+    <ul>
+      <li><em>thsc</em> - For this library, for almost all pages, enter a filter value as the parameter rather, as the links are not numbered for some pages. This uses the multiple file downloader implemented in v1.1.</li>
+      <li>Files with non-English characters are not currently supported. Please use the Custom option.</li>
+    </ul>
+  </li>
+  <li><em>EXIT</em> or <em>QUIT</em> - Exit program.</li>
+  <li><em>GET</em> - Navigate to link or file. Links are numbered. The GET command can also be used to download files in some libraries
+    <ul>
+      <li><em>bos</em> - For this library, this command is the same as the <em>GOTO</em> command.</li>
+    </ul>
+  </li>
+  <li>
+    <p><em>GET PAGE</em> or <em>VIEW PAGE</em> - (for <em>bos</em> library only) Change page.</p>
+  </li>
+  <li><em>GOTO</em> - Navigate to different folder:
+    <ul>
+      <li><em>bos</em> - Use the collection name (no link numbering). To view all the collections use the command <em>GET /resources</em>.</li>
+      <li><em>drive</em> - Use the command <em>CHANGE LIBRARY</em> to enter a new Google Drive folder ID.</li>
+      <li><em>fz</em> - Enter link number or the unique folder identifier (this is different to the Google Drive ID)</li>
+      <li><em>nanahcub</em> &amp; <em>web</em> - Enter link number or a URL</li>
+      <li><em>nesa</em> - Enter year or year followed by the exam pack. (The part of the URL after https://educationstandards.nsw.edu.au/wps/portal/nesa/resource-finder/hsc-exam-papers/)</li>
+      <li><em>thsc</em> - Enter link number or relative path. (The part of the URL after https://thsconline.github.io/, unlike v1.1 retain the extension, although the /files/ folder can be dropped from the path e.g. <em>GOTO /s/yr12/Maths/trialpapers.html</em>). Some pages do not have link numbering for some links.</li>
+      <li><strong>Note:</strong> The <em>GOTO</em> command cannot be used to download files.</li>
+    </ul>
+  </li>
+  <li><em>HELP</em> or <em>GET HELP</em> - Show basic help information</li>
+  <li>
+    <p><em>OPEN</em> - This command is the same as the <em>DOWNLOAD</em> command for some libraries, except it will attempt to open the file.</p>
+  </li>
+  <li><em>REFRESH</em> or <em>RELOAD</em> - Clear console</li>
+  <li>
+    <p><em>RESET</em> - Return to default folder.</p>
+  </li>
+  <li><em>SET FOLDER</em> - Change default download folder</li>
+  <li>
+    <p><em>SET LIBRARY</em> or <em>CHANGE LIBRARY</em> - Change library and default folder</p>
+  </li>
+  <li><em>VIEW PROPERTIES</em> or <em>QUERY_PROPERTIES</em> - Show current library and default download folder</li>
+  <li><em>VIEW USER</em> or <em>QUERY USER</em> - Show current logged in user. To change which user is logged in requires restarting the application.</li>
+  <li><em>VIEW WEBSITE</em> or <em>VIEW</em> - Show HTML of current page in new window.
+    <ul>
+      <li><em>nanahcub</em> &amp; <em>web</em> - This will open the page in default browser rather than in a small popup window as for other</li>
+      <li><em>thsc</em> - Enter filter value to open viewer of file (if multiple results are returned, it will prompt for a selection). Entering no value will revert to default behaviour of opening the page as per the <em>VIEW WEBSITE</em> command.</li>
+    </ul>
+  </li>
+</ul>
+
+
+</body>
+</html>
