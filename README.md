@@ -1,10 +1,21 @@
 # thsconline CLI
 
 ## System Requirements:
-* Windows supported, with Windows Powershell v4.0, v5.0 or v5.1 installed.
-(Note for Windows 7 and Windows Server 2008 R2, use version 1.1. No support for Windows Server Core versions prior to Windows Server 2016)
-* Linux/Mac partially supported but you will need to request the uncompiled Powershell script not EXE by emailing thsconline@gmail.com
-and will need to install both .NET 6.0 and Powershell 7.3. This has not been tested.
+
+### Windows
+Most versions of Windows are supported, provided Windows Powershell 5.0 or 5.1 is installed which includes Windows 10 & Windows 11.
+Note: For Windows 7 or Windows Server 2008 R2, please see the notes on version 1.1.
+
+No support for Windows Server Core versions prior to Windows Server 2016.
+
+**Prerequisites**
+* .NET 4.6.1 or newer (4.7.2 recommended) OR .NET 6.0 or newer
+
+### MAC OS or Linux
+**Prerequisites**
+* Uncompiled Powershell script copy (please email thsconline@gmail.com to request)
+* Powershell 7.2
+* .NET 6.0
 
 ## Instructions on how to use
 This tool may be limited to downloading 40 files at at a time.
