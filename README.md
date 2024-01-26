@@ -46,6 +46,14 @@ Parameters if EXE run by command line.
 * Removal of prompt for destination folder. Copy the EXE to the target folder you want the files to be downloaded to.
 * Unlike in v1.1 this does not depend on Internet Explorer (MSIE) engine and requires the following DLLs installed to the same folder. A copy suitable for Windows 10 operating system (.NET 4.6.1 or newer) is included but for other Windows or Linux operating system you may need to download the version specific to your .NET version (you can use `nuget`):
 
+[Anglesharp.dll](https://www.nuget.org/packages/AngleSharp)
+
+[System.Buffers.dll](https://www.nuget.org/packages/System.Buffers)
+
+[System.Runtime.CompilerServices.Unsafe.dll](https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe)
+
+[System.Text.Encoding.CodePages.dll](https://www.nuget.org/packages/System.Text.Encoding.CodePages)
+
 
 
 
